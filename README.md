@@ -7,6 +7,12 @@ A medical assistant chatbot that combines **chest X-ray image classification** w
 ## Project Structure
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/9e8964f9-0686-4261-a779-b9ef6e363451" />
 
+### To recreate the environment:
+python3 -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+
 ## How to Run
 
 ### 1. Train CNN Model
