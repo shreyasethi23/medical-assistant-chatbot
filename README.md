@@ -7,32 +7,6 @@ A medical assistant chatbot that combines **chest X-ray image classification** w
 ## Project Structure
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/9e8964f9-0686-4261-a779-b9ef6e363451" />
 
-
-medical-assistant-chatbot/
-│
-├── data/
-│   ├── images/
-│   │   ├── train/
-│   │   ├── val/
-│   │   └── test/
-│   └── medical_qa.csv
-│
-├── models/
-│   └── pneumonia_model.pth
-│
-├── notebooks/
-│   ├── cnn_training.ipynb
-│   └── test_predictions.csv
-│
-├── text_retrieval/
-│   ├── build_index.py
-│   ├── query.py
-│   ├── qa_data.pkl
-│   ├── qa_index.faiss
-│   └── app.py
-
----
-
 ## How to Run
 
 ### 1. Train CNN Model
